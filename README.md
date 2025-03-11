@@ -3,3 +3,4 @@ En el presente repositorio se adjunta el código para manejar los motores de un 
 
 Las ecuaciones diferenciales para el modelo en variables de estado, se derivan de las ecuaciones de Navier Stokes:
 
+$$/rho/frac{/partial v}{/partial t+(v /dot /nabla v)} = -/nabla P+/mu /nabla^2 v + /rho g$$
