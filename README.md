@@ -3,9 +3,9 @@ En el presente repositorio se adjunta el código para manejar los motores de un 
 
 Las ecuaciones diferenciales para el modelo en variables de estado que describen el flujo dentro del túnel de viento, se derivan de las ecuaciones de Navier Stokes:
 
-$$\rho \left( \frac{\partial v}{\partial t} + v \cdot \nabla v \right) = -\nabla P+\mu \nabla^2 v + \rho g$$
+$$\rho \left( \frac{\partial v}{\partial t} + v \cdot \nabla v \right) = -\nabla P + \nabla \cdot T + f$$
 
-Estas ecuaciones vienen en tres dimensiones; sin embargo, para el túnel de viento realizamos las siguientes suposiciones que facilitan demasiado el cálculo del modelo: 
+Estas ecuaciones describen el comportamiento de fluidos en tres dimensiones; sin embargo, para el túnel de viento realizamos las siguientes suposiciones que facilitan demasiado el cálculo del modelo: 
 
 + Flujo laminar incompresible a lo largo del tubo.
 + Flujo solo en la dirección x, es decir $v_y = v_z = 0, \forall t>0$.
