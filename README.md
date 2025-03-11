@@ -8,7 +8,7 @@ $$\rho \left( \frac{\partial v}{\partial t} + v \cdot \nabla v \right) = -\nabla
 Estas ecuaciones vienen en tres dimensiones; sin embargo, para el túnel de viento realizamos las siguientes suposiciones que facilitan demasiado el cálculo del modelo: 
 
 + Flujo laminar incompresible a lo largo del tubo.
-+ $v_y = v_z = 0, \forall t>0$.
++ Flujo solo en la dirección x, es decir $v_y = v_z = 0, \forall t>0$.
 
 Con lo cual nos queda la siguiente ecuación diferencial:
 
