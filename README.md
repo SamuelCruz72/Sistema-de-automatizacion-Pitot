@@ -12,4 +12,4 @@ Estas ecuaciones vienen en tres dimensiones; sin embargo, para el túnel de vien
 
 Con lo cual nos queda la siguiente ecuación diferencial:
 
-$$\rho \left( \frac{\partial v_x}{\partial t} + v_x \frac{\partial v_x}{\partial x} \right) = -\nabla P+\mu \left( \frac{\partial^2 v_x}{\partial x^2}+\frac{\partial^2 v_x}{\partial y^2} \right) + \rho g$$
+$$\rho \left( \frac{\partial v_x}{\partial t} + v_x \frac{\partial v_x}{\partial x} \right) = -\frac{\partial P_x}{\partial x} + \mu \left( \frac{\partial^2 v_x}{\partial x^2}+\frac{\partial^2 v_x}{\partial y^2} \right) + \rho g_x$$
